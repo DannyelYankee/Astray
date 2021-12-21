@@ -1,0 +1,9 @@
+version: '3'
+services:
+  astray:
+    container_name: astray
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+
